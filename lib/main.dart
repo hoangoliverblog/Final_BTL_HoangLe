@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:mynote/ui/views/note/note_view.dart';
+import 'mainPage.dart';
 
-void main() {
-  runApp(MyApp());
-}
+void main() => runApp(MyApp());
 
-class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: NoteView(),
+    // TODO: implement build
+    return new MaterialApp(
+      title: "Flutter",
+      home: new MainPage(),
     );
   }
 }
