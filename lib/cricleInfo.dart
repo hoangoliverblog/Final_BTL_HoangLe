@@ -1,0 +1,3 @@
+class CricleInfo{
+  String BanKinh;
+}

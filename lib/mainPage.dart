@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'circle.dart';
+import 'cricle.dart';
 import 'triangle.dart';
 import 'square.dart';
 
@@ -21,13 +21,13 @@ class MainPageState extends State<MainPage>{
                       height: 80.0,
                       fit: BoxFit.cover,
                     ),
-                    new Text("Nguyễn Thế Vương",
+                    new Text("Lê Văn Hoàng",
                       style: new TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold
                       ),
                     ),
-                    new Text("1621050118",
+                    new Text("1621050807",
                       style: new TextStyle(
                         color: Colors.white,
                       ),)

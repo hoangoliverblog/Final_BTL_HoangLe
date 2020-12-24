@@ -1,0 +1,3 @@
+class SquareInfo{
+  String CanhHV;
+}
