@@ -15,3 +15,5 @@ Kho mã nguồn của ứng dụng : [Link liên kết github](https://github.co
 ===========================
 
 
+> Khởi tạo và chạy file main.dart bao gồm: title và home. 
+  Phần home được trỏ đến hàm MainPage() trong file mainPage.dart.
