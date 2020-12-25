@@ -17,7 +17,7 @@ class SquareState extends State<Square>{
       },
       keyboardType: TextInputType.number,
       decoration: new InputDecoration(
-        hintText: 'Nhập vào cạnh hình vuông',
+        hintText: 'Nhập cạnh hình vuông',
         contentPadding: new EdgeInsets.all(10.0),
         border: InputBorder.none,
       ),
