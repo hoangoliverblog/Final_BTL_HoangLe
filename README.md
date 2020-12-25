@@ -7,11 +7,11 @@ Bài thu hoạch của sinh viên
 Kho mã nguồn của ứng dụng : [Link liên kết github](https://github.com/hoangoliverblog/Final_BTL_HoangLe).
 #### ![Image](./images/Homepage.png).
 ===========================
-#### [Giao diện trang tính diện tích hình tròn](./images/circlepage.png).
+#### ![Image](./images/circlepage.png).
 ===========================
-#### [Giao diện trang tính diện tích hình vuông](./images/squarepage.png).
+#### ![Image](./images/squarepage.png).
 ===========================
-#### [Giao diện trang tính diện tích hình tam giác](./images/trianglepage.png).
+#### ![Image](./images/trianglepage.png).
 ===========================
 
 
