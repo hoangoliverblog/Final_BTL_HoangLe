@@ -22,24 +22,24 @@ Dart tập trung vào phát triển front end, và bạn có thể sử dụng n
 ![Image](./images/2.PNG).
 * Class MainPageState trả về một Scaffold() chứa appBar, body và drawer.
 ![Image](./images/3.PNG).
-![Image](./images/4.png).
+![Image](./images/4.PNG).
 * Các ListTitle được điều hướng đến các màn hình khác nhau, phục vụ cho việc tính toán.
-![Image](./images/5.png).
+![Image](./images/5.PNG).
 ---
 ![Image](./images/circlepage.png).
 ###### Giao diện trang tính diện tích hình tròn
 * Source code file dart để tính diện tích hình tròn
-![Image](./images/6.png).
-![Image](./images/7.png).
+![Image](./images/6.PNG).
+![Image](./images/7.PNG).
 * Khởi tạo các biến trống ChuVi, DienTich, BanKinh.
-![Image](./images/8.png).
+![Image](./images/8.PNG).
 * Giá trị nhập được gán cho thuộc tính BanKinh của đối tượng CricleInfo.
 *	Nút “Tính” thực hiện việc gán giá trị từ đối tượng CricleInfo vào biến trống khởi tạo ban đầu và thực hiện việc tính toán.
-![Image](./images/9.png).
+![Image](./images/9.PNG).
 * Kết quả trả về được in ra trong Container cuối.
-![Image](./images/10.png).
+![Image](./images/10.PNG).
 * file hinhtron.dart để lưu thuộc tính của đối tượng
-![Image](./images/11.png).
+![Image](./images/11.PNG).
 ---
 ![Image](./images/squarepage.png).
 ###### Giao diện trang tính diện tích hình vuông
@@ -48,6 +48,4 @@ Dart tập trung vào phát triển front end, và bạn có thể sử dụng n
 ###### Giao diện trang tính diện tích hình tam giác
 ---
 
-
-> Khởi tạo và chạy file main.dart bao gồm: title và home. 
-  Phần home được trỏ đến hàm MainPage() trong file mainPage.dart.
+* Các file square.dart và triangle.dart có cấu trúc xây dựng tương tự cricle
