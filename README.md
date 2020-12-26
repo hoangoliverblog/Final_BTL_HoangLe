@@ -13,23 +13,38 @@ Flutter gồm 2 thành phần quan trọng:
 Dart tập trung vào phát triển front end, và bạn có thể sử dụng nó để tạo ứng dụng di động và cả ứng dụng web.
 ---
 # Ứng dụng của tôi
-#### ![Image](./images/Homepage.png).
+![Image](./images/Homepage.png).
 ###### Giao diện trang chủ ứng dụng
 
 * Khởi tạo và chạy file main.dart bao gồm: title và home. Phần home được trỏ đến hàm MainPage() trong file mainPage.dart.
-![Image](./images/circlepage.png).
+![Image](./images/1.png).
 * Class MainPage là một StatefulWidget trả về hàm MainPageState().
-
+![Image](./images/2.png).
 * Class MainPageState trả về một Scaffold() chứa appBar, body và drawer.
-
+![Image](./images/3.png).
+![Image](./images/4.png).
+* Các ListTitle được điều hướng đến các màn hình khác nhau, phục vụ cho việc tính toán.
+![Image](./images/5.png).
 ---
-#### ![Image](./images/circlepage.png).
+![Image](./images/circlepage.png).
 ###### Giao diện trang tính diện tích hình tròn
+* Source code file dart để tính diện tích hình tròn
+![Image](./images/6.png).
+![Image](./images/7.png).
+* Khởi tạo các biến trống ChuVi, DienTich, BanKinh.
+![Image](./images/8.png).
+* Giá trị nhập được gán cho thuộc tính BanKinh của đối tượng CricleInfo.
+*	Nút “Tính” thực hiện việc gán giá trị từ đối tượng CricleInfo vào biến trống khởi tạo ban đầu và thực hiện việc tính toán.
+![Image](./images/9.png).
+* Kết quả trả về được in ra trong Container cuối.
+![Image](./images/10.png).
+* file hinhtron.dart để lưu thuộc tính của đối tượng
+![Image](./images/11.png).
 ---
-#### ![Image](./images/squarepage.png).
+![Image](./images/squarepage.png).
 ###### Giao diện trang tính diện tích hình vuông
 ---
-#### ![Image](./images/trianglepage.png).
+![Image](./images/trianglepage.png).
 ###### Giao diện trang tính diện tích hình tam giác
 ---
 
