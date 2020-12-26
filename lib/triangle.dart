@@ -1,7 +1,7 @@
 import 'dart:math';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'triangleInfo.dart';
+import 'hinhtamgiac.dart';
 class TriangleState extends State<Triangle>{
   var Canh1 = '';
   var Canh2 = '';
@@ -19,7 +19,7 @@ class TriangleState extends State<Triangle>{
       },
       keyboardType: TextInputType.number,
       decoration: new InputDecoration(
-        hintText: 'Nhập vào cạnh 3',
+        hintText: 'Nhập độ dài các cạnh ',
         contentPadding: new EdgeInsets.all(10.0),
         border: InputBorder.none,
       ),
@@ -32,7 +32,7 @@ class TriangleState extends State<Triangle>{
       },
       keyboardType: TextInputType.number,
       decoration: new InputDecoration(
-        hintText: 'Nhập vào cạnh 1',
+        hintText: 'Nhập cạnh 1',
         contentPadding: new EdgeInsets.all(10.0),
         border: InputBorder.none,
       ),
@@ -45,7 +45,7 @@ class TriangleState extends State<Triangle>{
       },
       keyboardType: TextInputType.number,
       decoration: new InputDecoration(
-        hintText: 'Nhập vào cạnh 2',
+        hintText: 'Nhập cạnh 2',
         contentPadding: new EdgeInsets.all(10.0),
         border: InputBorder.none,
       ),
@@ -53,12 +53,12 @@ class TriangleState extends State<Triangle>{
     // TODO: implement build
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("Triangle page"),
+        title: new Text("Hình tam giác"),
       ),
       body: ListView(
         children: <Widget>[
           new Image.asset(
-            'images/triangle_image.png',
+            'images/tamgiac.jpg',
             width: 300.0,
             height: 300.0,
           ),

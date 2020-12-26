@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'cricleInfo.dart';
+import 'hinhtron.dart';
 
 
 class CricleState extends State<Cricle>{
@@ -18,7 +18,7 @@ class CricleState extends State<Cricle>{
       },
       keyboardType: TextInputType.number,
       decoration: new InputDecoration(
-        hintText: 'Nhập vào bán kính',
+        hintText: 'Nhập bán kính',
         contentPadding: new EdgeInsets.all(10.0),
         border: InputBorder.none,
       ),
@@ -26,12 +26,12 @@ class CricleState extends State<Cricle>{
     // TODO: implement build
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("Cricle page"),
+        title: new Text("Hình tròn"),
       ),
       body: new Column(
         children: <Widget>[
           new Image.asset(
-            'images/cricle_image.png',
+            'images/tron.jpg',
             width: 300.0,
             height: 300.0,
           ), //Hình minh họa

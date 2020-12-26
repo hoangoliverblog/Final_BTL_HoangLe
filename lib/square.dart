@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'squareInfo.dart';
+import 'hinhvuong.dart';
 
 class SquareState extends State<Square>{
   var ChuVi = '';
@@ -25,12 +25,12 @@ class SquareState extends State<Square>{
     // TODO: implement build
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("Square page"),
+        title: new Text("Hình vuông"),
       ),
       body: new Column(
         children: <Widget>[
           new Image.asset(
-            'images/square_image.jpg',
+            'images/vuong.png',
             width: 300.0,
             height: 300.0,
           ),

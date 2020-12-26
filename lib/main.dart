@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     // TODO: implement build
     return new MaterialApp(
-      title: "Flutter",
+      title: "Flutter App",
       home: new MainPage(),
     );
   }
