@@ -67,7 +67,7 @@ Dart tập trung vào phát triển front end, và bạn có thể sử dụng n
 ## Thu hoạch của sinh viên sau khi học xong môn học 
 * + Biết được quy trình xây dựng một ứng dụng điện thoại
 * + Học thêm được một ngôn ngữ lập trình mới là dart, sử dụng flutter để xây dựng ứng dụng chạy được cả trên android và ios
-* + Sử dụng github để tạo và lưu trữ project
+* + Sử dụng github để tạo và lưu trữ project, biết thêm ngôn ngữ biên kịch markdown
 * + Làm việc nhóm .v.v..
 ---
 # Thank you for wathching !
