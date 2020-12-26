@@ -17,7 +17,7 @@ Dart tập trung vào phát triển front end, và bạn có thể sử dụng n
 ###### Giao diện trang chủ ứng dụng
 
 * Khởi tạo và chạy file main.dart bao gồm: title và home. Phần home được trỏ đến hàm MainPage() trong file mainPage.dart.
-
+![Image](./images/circlepage.png).
 * Class MainPage là một StatefulWidget trả về hàm MainPageState().
 
 * Class MainPageState trả về một Scaffold() chứa appBar, body và drawer.
